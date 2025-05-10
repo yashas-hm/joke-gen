@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:joke_gen/screens/joke_generator.dart';
 
 class DemoStateless extends StatelessWidget {
   DemoStateless({super.key, required this.title});
@@ -56,7 +57,23 @@ class _DemoStatefulState extends State<DemoStateful> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.title)),
+      appBar: AppBar(
+        title: Text(widget.title),
+        actions: [
+          IconButton(
+            onPressed: () => Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const JokeGeneratorScreen(),
+              ),
+            ),
+            icon: Icon(
+              Icons.near_me,
+              color: Theme.of(context).colorScheme.tertiary,
+            ),
+          ),
+        ],
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -73,7 +90,7 @@ class _DemoStatefulState extends State<DemoStateful> {
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }

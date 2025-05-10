@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:joke_gen/core/constants/theme.dart';
+import 'package:joke_gen/screens/demo_screen.dart';
 import 'package:joke_gen/screens/joke_generator.dart';
 
 void main() {
@@ -16,8 +17,8 @@ class MyApp extends StatelessWidget {
       theme: lightTheme(context),
       darkTheme: darkTheme(context),
       // home: DemoStateless(title: 'Stateless',),
-      // home: DemoStateful(title: 'Stateful',),
-      home: JokeGeneratorScreen(),
+      home: DemoStateful(title: 'Stateful',),
+      // home: JokeGeneratorScreen(),
     );
   }
 }
