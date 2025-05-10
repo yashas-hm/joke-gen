@@ -1,16 +1,22 @@
 # joke_gen
 
-A new Flutter project.
+A Sample template to showcase at a GDG Flutter Workshop
 
 ## Getting Started
+Flutter Download: https://docs.flutter.dev/get-started
+VS Code: https://code.visualstudio.com/download
+IntelliJ IDEA: https://www.jetbrains.com/idea/download
 
-This project is a starting point for a Flutter application.
+## Important Flutter Links
+Dart Playground: https://dartpad.dev
+Pub Dev: https://pub.dev
 
-A few resources to get you started if this is your first Flutter project:
+## Repository & Presentation
+Repo: https://github.com/yashas-hm/joke-gen
+PPT: https://docs.google.com/presentation/d/1dGQ4mpd-AMgPLiAOHfqb_UhI0UPHDMlZ38Ulwl-LuWU
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Connect with me:
+Website: https://yashashm.dev
+LinkedIn: https://www.linkedin.com/in/yashashm
+GitHub: https://github.com/yashas-hm
+Twitter: https://x.com/YashasMajmudar
