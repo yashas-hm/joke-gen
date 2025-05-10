@@ -2,6 +2,19 @@
 
 A Sample template to showcase at a GDG Flutter Workshop
 
+### Basic Flutter Commands
+```bash
+flutter create .
+flutter create --platforms=web,ios,android
+
+flutter doctor
+
+flutter pub add <package>
+flutter pub get
+flutter pub upgrade
+flutter pub outdated
+```
+
 ## Getting Started
 Flutter Download: https://docs.flutter.dev/get-started
 
